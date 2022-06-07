@@ -21,7 +21,7 @@ def download_sipri_data():
         print(key)
 
         seller_str = sipri.sipri_data(low_year='1950',
-                                      high_year='2020',
+                                      high_year='2021',
                                       seller=value[0],
                                       filetype='csv')
 
@@ -34,7 +34,7 @@ def download_sipri_data():
             seller_csv.close()
 
         buyer_str = sipri.sipri_data(low_year='1950',
-                                     high_year='2020',
+                                     high_year='2021',
                                      buyer=value[0],
                                      filetype='csv')
 

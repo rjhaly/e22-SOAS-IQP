@@ -1,5 +1,6 @@
 import pandas as pd
 import numpy as np
+
 import sipri_info as si
 
 extra_cols = ["sipri_name", "sipri_alpha", "iso_alpha"]
@@ -47,14 +48,16 @@ def perform_db_timelapse_ops(is_import) -> pd.DataFrame:
                                      'iso_alpha': value[1],
                                      'odat': pt_row[0]})
                 new_row = new_row.append(pt_row[1])
+                # new_row = pd.concat([new_row, pt_row[1]])
                 if new_row["odat"] != "All":
+                    # tl_map_df = pd.concat([tl_map_df, new_row], ignore_index=True)
                     tl_map_df = tl_map_df.append(new_row, ignore_index=True)
 
     tl_map_df = tl_map_df.fillna(0)
 
     for x in range(len(tl_map_df.index) - 1):
-        if tl_map_df.iloc[x]["sipri_name"] == tl_map_df.iloc[x+1]["sipri_name"]:
-            tl_map_df.at[x+1, "All"] += tl_map_df.at[x, "All"]
+        if tl_map_df.iloc[x]["sipri_name"] == tl_map_df.iloc[x + 1]["sipri_name"]:
+            tl_map_df.at[x + 1, "All"] += tl_map_df.at[x, "All"]
 
     # fill in years between with same total
     tl_map_df.astype({'odat': np.int64})
@@ -63,10 +66,10 @@ def perform_db_timelapse_ops(is_import) -> pd.DataFrame:
         if key in tl_map_df.values:
             for y in range(int(tl_map_df.loc[tl_map_df['sipri_name'] == key]["odat"].min()), 2021):
                 if not ((tl_map_df['sipri_name'] == key) & (tl_map_df['odat'] == y)).any():
-
-                    fill_row = tl_map_df.loc[(tl_map_df["sipri_name"] == key) & (tl_map_df["odat"] == y-1)].copy()
+                    fill_row = tl_map_df.loc[(tl_map_df["sipri_name"] == key) & (tl_map_df["odat"] == y - 1)].copy()
                     fill_row["odat"] = y
                     tl_map_df = tl_map_df.append(fill_row, ignore_index=True)
+                    # tl_map_df = pd.concat([tl_map_df, fill_row], ignore_index=True)
 
     file = "data/tl_map_i_df.csv" if is_import else "data/tl_map_e_df.csv"
     tl_map_df_file = open(file, "w")
@@ -89,6 +92,12 @@ def load_stockpiles_df() -> pd.DataFrame:
     :return: Stockpiles DataFrame
     """
     stockpile_df = pd.read_csv("Stockpiles.csv").set_index('ISO Code')
+    # removes rows that do not have any data in them
+    for index, row in stockpile_df.iterrows():
+        if row['Total Recorded Munition Sum'] == '-':
+            stockpile_df = stockpile_df.drop(index)
+    #Makes last column numberic, so map works on a gradient now
+    stockpile_df[['Total Recorded Munition Sum']] = stockpile_df[['Total Recorded Munition Sum']].apply(pd.to_numeric)
     return stockpile_df
 
 

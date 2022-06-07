@@ -16,10 +16,10 @@ def draw_tl_map(tl_map_df, is_import):
 
     if is_import:
         title = "Imports"
-        # color = "blues"
+        color = "blues"
     else:
         title = "Exports"
-        # color = "reds"
+        color = "reds"
 
     fig = px.choropleth(tl_map_df,
                         locations="iso_alpha",
@@ -32,7 +32,7 @@ def draw_tl_map(tl_map_df, is_import):
                         hover_data=si.WCATS_DICT.keys(),
                         labels=dict(si.WCATS_DICT, **{"odat": "Year", "All": "Total"}),
                         title="Major Conventional Weapon " + title + " over time from SIPRI",
-                        # color_continuous_scale=color,
+                         color_continuous_scale=color,
                         projection="robinson")
 
     plot(fig)
@@ -49,7 +49,7 @@ def draw_transparency_map(transparency_df):
                         color="Total Reports",
                         hover_data=['Exports/Imports', 'Military Holdings', 'National Production', 'SALW'],
                         title="Transparency Indicator: Number of voluntary UNROCA weapon reports 1992-2020",
-                        # color_continuous_scale="greens",
+                         color_continuous_scale="greens",
                         projection="robinson")
 
     plot(fig)
@@ -62,12 +62,13 @@ def draw_stockpiles_map(stockpiles_df):
     """
     fig = px.choropleth(stockpiles_df,
                         locations=stockpiles_df.index,
-                        hover_name="name",
-                        color="Stockpiles",
-                        hover_data=['Year', 'Tanks', 'Combat vehicles', 'Artillery', 'Aircraft', 'Helicopters',
-                                    'Warships', 'Missiles/Missile launchers', 'Stockpiles'],
+                        hover_name="https://www.unroca.org/",
+                        color="Total Recorded Munition Sum",
+                        hover_data=['Most recent year (1992-2019)', 'I. Battle tanks', 'II. Armoured combat vehicles',
+                                    'III. Large calibre artillery systems', 'IV. Combat aircraft',
+                                    'V. Attack helicopters', 'VI. Warships', 'VII. Missiles and missile launchers'],
                         title="Major Conventional Weapon Stockpiles from UNROCA",
-                        # color_continuous_scale="purples",
+                         color_continuous_scale="purples",
                         projection="robinson")
 
     plot(fig)

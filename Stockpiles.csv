@@ -1,56 +1,194 @@
-name,ISO Code,Year,Tanks,Combat vehicles,Artillery,Aircraft,Helicopters,Warships,Missiles/Missile launchers,Stockpiles
-Argentina,ARG,2019,385,744,1535,76,134,38,43,2955
-Armenia,ARM,2009,110,140,239,16,8,0,0,513
-Australia,AUS,2019,59,1913,340,174,46,49,0,2581
-Austria,AUT,2012,114,808,808,15,0,0,20,1765
-Azerbaijan,AZE,1997,270,361,301,48,15,16,0,1011
-Belarus,BLR,1995,3108,3176,1533,291,74,0,0,8182
-Belgium,BEL,2020,2,169,64,61,23,9,41,369
-Brazil,BRA,2007,386,1277,674,186,137,41,173,2874
-Bulgaria,BGR,2016,313,557,950,46,12,6,0,1884
-Cambodia,KHM,2000,103,74,102,5,4,10,0,298
-Canada,CAN,2020,82,1616,368,87,0,28,165,2346
-China,CHN,2011,296,0,0,0,0,0,0,296
+https://www.unroca.org/,ISO Code,Most recent year (1992-2019),I. Battle tanks,II. Armoured combat vehicles,III. Large calibre artillery systems,IV. Combat aircraft,V. Attack helicopters,VI. Warships,VII. Missiles and missile launchers,Total Recorded Munition Sum
 Colombia,COL,1992,54,203,300,68,74,38,32,769
-Côte d'Ivoire,CIV,1993,0,63,21,5,0,0,0,89
-Croatia,HRV,2001,280,143,1117,24,9,0,0,1573
-Czech Rep.,CZE,2020,116,430,179,39,17,0,53,834
-Denmark,DNK,2020,46,233,41,44,11,11,0,386
-Estonia,EST,2015,0,159,0,0,0,0,0,159
-Finland,FIN,2020,200,1118,1503,62,0,8,0,2891
-France,FRA,2020,267,6309,133,279,196,68,0,7252
-Georgia,GEO,2002,87,119,116,7,3,1,0,333
-Germany,DEU,2020,806,2062,319,234,111,46,4525,8103
-Greece,GRC,2017,1619,2299,1818,589,28,61,1676,8090
-Honduras,HND,1998,32,0,100,27,0,25,30,214
-Hungary,HUN,2017,76,597,89,91,15,0,134,1002
-Ireland,IRL,2014,0,156,127,0,0,0,66,349
-Italy,ITA,2014,1191,2525,1113,320,98,44,1615,6906
-Japan,JPN,2020,690,1245,5920,400,145,106,0,8506
-Kuwait,KWT,2005,367,273,98,66,29,11,59,903
-Lithuania,LTU,2020,0,296,170,0,0,1,91,558
-Luxembourg,LUX,2003,0,42,0,0,0,0,0,42
-Mexico,MEX,1996,119,720,161,136,101,0,0,1237
-Netherlands,NLD,2020,5,1225,304,82,45,27,1490,3178
-New Zealand,NZL,2008,0,105,24,40,5,2,12,188
-Nicaragua,NIC,1992,0,1,0,0,23,0,5892,5916
-Niger,NER,1994,0,84,4,0,0,0,0,88
-North Macedonia,MKD,2001,125,227,307,4,10,0,0,673
-Norway,NOR,2003,165,530,512,72,0,36,0,1315
-Paraguay,PRY,1994,0,0,737,0,0,0,0,737
-Poland,POL,2020,837,1667,1076,112,81,27,0,3800
-Portugal,PRT,2001,187,522,377,101,0,20,29,1236
-Rep. of Moldova,MDA,2003,0,200,150,0,0,0,0,350
-Romania,ROU,2019,641,1260,2804,108,22,16,288,5139
-Serbia,SRB,2004,0,0,36,0,0,0,0,36
+Nicaragua,NIC,1992,-,1,-,-,23,-,5892,5916
 Sierra Leone,SLE,1993,0,0,9,0,0,0,0,9
-Slovakia,SVK,2020,30,342,166,24,0,0,808,1370
-Spain,ESP,2020,501,3476,1584,187,52,46,874,6720
-Suriname,SUR,2017,3,4,25,0,0,0,0,32
-Sweden,SWE,2020,120,1045,255,132,0,23,60,1635
-Switzerland,CHE,2020,134,1266,355,83,0,0,7,1845
-Togo,TGO,2000,20,58,45,5,0,2,0,130
-Turkey,TUR,2007,3363,4625,6110,352,44,60,1859,16413
-United Kingdom,GBR,2020,302,3769,250,171,162,61,24645,29360
-United States,USA,2019,5125,14321,4771,4188,908,293,54993,84599
+Côte d'Ivoire,CIV,1993,0,63,21,5,0,0,0,89
+Belize,BLZ,1994,0,0,0,0,0,0,0,0
+Papua New Guinea,PNG,1994,0,0,0,0,0,0,0,0
+Niger,NER,1994,0,84,4,0,0,0,0,88
+Paraguay,PRY,1994,0,0,737,0,0,0,0,737
+Belarus,BLR,1995,3108,3176,1533,291,74,-,-,8182
+Mexico,MEX,1996,119,720,161,136,101,-,-,1237
+Tajikistan,TJK,1997,0,0,0,0,0,0,0,0
 Venezuela (Bolivarian Republic of),VEN,1997,389,120,54,112,0,15,0,690
+Azerbaijan,AZE,1997,270,361,301,48,15,16,-,1011
+Kiribati,KIR,1997,-,-,-,-,-,-,-,-
+Honduras,HND,1998,32,-,100,27,-,25,30,214
+Togo,TGO,2000,20,58,45,5,-,2,-,130
+Cambodia,KHM,2000,103,74,102,5,4,10,-,298
+North Macedonia,MKD,2001,125,227,307,4,10,-,-,673
+Portugal,PRT,2001,187,522,377,101,-,20,29,1236
+Croatia,HRV,2001,280,143,1117,24,9,-,-,1573
+Georgia,GEO,2002,87,119,116,7,3,1,-,333
+Rep. of Moldova,MDA,2003,-,200,150,-,-,-,-,350
+Norway,NOR,2003,165,530,512,72,-,36,-,1315
+Luxembourg,LUX,2003,-,42,-,-,-,-,-,42
+Serbia,SRB,2004,-,-,36,-,-,-,-,36
+Kuwait,KWT,2005,367,273,98,66,29,11,59,903
+Brazil,BRA,2007,386,1277,674,186,137,41,173,2874
+Turkey,TUR,2007,3363,4625,6110,352,44,60,1859,16413
+New Zealand,NZL,2008,-,105,24,40,5,2,12,188
+Armenia,ARM,2009,110,140,239,16,8,-,-,513
+China,CHN,2011,296,-,-,-,-,-,-,296
+Austria,AUT,2012,114,808,808,15,-,-,20,1765
+Ireland,IRL,2014,-,156,127,-,-,-,66,349
+Italy,ITA,2014,1191,2525,1113,320,98,44,1615,6906
+Estonia,EST,2015,-,159,-,-,-,-,-,159
+Bulgaria,BGR,2016,313,557,950,46,12,6,-,1884
+Suriname,SUR,2017,3,4,25,-,-,-,-,32
+Hungary,HUN,2017,76,597,89,91,15,-,134,1002
+Greece,GRC,2017,1619,2299,1818,589,28,61,1676,8090
+Australia,AUS,2020,59,2155,619,109,66,16,194,3218
+Argentina,ARG,2021,526,1204,2983,652,222,66,137,5790
+Romania,ROU,2020,641,1223,2752,112,22,16,288,5054
+United States,USA,2020,4781,14790,4961,4236,892,297,58190,88147
+Denmark,DNK,2020,46,233,41,44,11,11,-,386
+Belgium,BEL,2020,16,169,64,61,23,9,41,383
+France,FRA,2020,267,6309,133,279,196,68,-,7252
+Slovakia,SVK,2020,30,342,166,24,0,0,808,1370
+Lithuania,LTU,2020,-,296,170,-,-,1,91,558
+Czech Rep.,CZE,2021,116,430,179,39,17,-,63,844
+United Kingdom,GBR,2020,302,3769,250,171,162,61,24645,29360
+Sweden,SWE,2021,120,1045,255,132,-,177,60,1789
+Netherlands,NLD,2020,5,1225,304,82,45,27,1490,3178
+Germany,DEU,2021,824,2026,308,234,87,47,4547,8073
+Switzerland,CHE,2020,134,1266,355,83,-,-,7,1845
+Canada,CAN,2020,82,1616,368,87,-,28,165,2346
+Poland,POL,2020,837,1667,1076,112,81,27,-,3800
+Finland,FIN,2020,200,1118,1503,62,-,8,-,2891
+Spain,ESP,2020,501,3476,1584,187,52,46,874,6720
+Japan,JPN,2020,690,1245,5920,400,145,106,-,8506
+Afghanistan,AFG,-,-,-,-,-,-,-,-,-
+Angola,AGO,-,-,-,-,-,-,-,-,-
+Albania,ALB,-,-,-,-,-,-,-,-,-
+Andorra,AND,-,-,-,-,-,-,-,-,-
+United Arab Emirates,ARE,-,-,-,-,-,-,-,-,-
+Antigua and Barbuda,ATG,-,-,-,-,-,-,-,-,-
+Burundi,BDI,-,-,-,-,-,-,-,-,-
+Benin,BEN,-,-,-,-,-,-,-,-,-
+Burkina Faso,BFA,-,-,-,-,-,-,-,-,-
+Bangladesh,BGD,-,-,-,-,-,-,-,-,-
+Bahrain,BHR,-,-,-,-,-,-,-,-,-
+Bahamas,BHS,-,-,-,-,-,-,-,-,-
+Bosnia and Herzegovina,BIH,2021,324,272,1375,19,7,-,-,1997
+Bolivia,BOL,-,-,-,-,-,-,-,-,-
+Barbados,BRB,-,-,-,-,-,-,-,-,-
+Brunei Darussalam,BRN,-,-,-,-,-,-,-,-,-
+Bhutan,BTN,-,-,-,-,-,-,-,-,-
+Botswana,BWA,-,-,-,-,-,-,-,-,-
+Central African Rep.,CAF,-,-,-,-,-,-,-,-,-
+Chile,CHL,-,-,-,-,-,-,-,-,-
+Cameroon,CMR,-,-,-,-,-,-,-,-,-
+Dem. Rep. of the Congo,COD,-,-,-,-,-,-,-,-,-
+Congo,COG,-,-,-,-,-,-,-,-,-
+Comoros,COM,-,-,-,-,-,-,-,-,-
+Cabo Verde,CPV,-,-,-,-,-,-,-,-,-
+Costa Rica,CRI,-,-,-,-,-,-,-,-,-
+Cuba,CUB,-,-,-,-,-,-,-,-,-
+Cyprus,CYP,-,-,-,-,-,-,-,-,-
+Djibouti,DJI,-,-,-,-,-,-,-,-,-
+Dominica,DMA,-,-,-,-,-,-,-,-,-
+Dominican Rep.,DOM,-,-,-,-,-,-,-,-,-
+Algeria,DZA,-,-,-,-,-,-,-,-,-
+Ecuador,ECU,-,-,-,-,-,-,-,-,-
+Egypt,EGY,-,-,-,-,-,-,-,-,-
+Eritrea,ERI,-,-,-,-,-,-,-,-,-
+Ethiopia,ETH,-,-,-,-,-,-,-,-,-
+Fiji,FJI,-,-,-,-,-,-,-,-,-
+Micronesia (Federated States of),FSM,-,-,-,-,-,-,-,-,-
+Gabon,GAB,-,-,-,-,-,-,-,-,-
+Ghana,GHA,-,-,-,-,-,-,-,-,-
+Guinea,GIN,-,-,-,-,-,-,-,-,-
+Gambia,GMB,-,-,-,-,-,-,-,-,-
+Guinea-Bissau,GNB,-,-,-,-,-,-,-,-,-
+Equatorial Guinea,GNQ,-,-,-,-,-,-,-,-,-
+Grenada,GRD,-,-,-,-,-,-,-,-,-
+Guatemala,GTM,-,-,-,-,-,-,-,-,-
+Guyana,GUY,-,-,-,-,-,-,-,-,-
+Haiti,HTI,-,-,-,-,-,-,-,-,-
+Indonesia,IDN,-,-,-,-,-,-,-,-,-
+India,IND,-,-,-,-,-,-,-,-,-
+Iran (Islamic Republic of),IRN,-,-,-,-,-,-,-,-,-
+Iraq,IRQ,-,-,-,-,-,-,-,-,-
+Iceland,ISL,-,-,-,-,-,-,-,-,-
+Israel,ISR,-,-,-,-,-,-,-,-,-
+Jamaica,JAM,-,-,-,-,-,-,-,-,-
+Jordan,JOR,-,-,-,-,-,-,-,-,-
+Kazakhstan,KAZ,-,-,-,-,-,-,-,-,-
+Kenya,KEN,-,-,-,-,-,-,-,-,-
+Kyrgyzstan,KGZ,-,-,-,-,-,-,-,-,-
+Saint Kitts and Nevis,KNA,-,-,-,-,-,-,-,-,-
+Rep. of Korea,KOR,-,-,-,-,-,-,-,-,-
+Lao People's Dem. Rep.,LAO,-,-,-,-,-,-,-,-,-
+Lebanon,LBN,-,-,-,-,-,-,-,-,-
+Liberia,LBR,-,-,-,-,-,-,-,-,-
+Libya,LBY,-,-,-,-,-,-,-,-,-
+Saint Lucia,LCA,-,-,-,-,-,-,-,-,-
+Liechtenstein,LIE,-,-,-,-,-,-,-,-,-
+Sri Lanka,LKA,-,-,-,-,-,-,-,-,-
+Lesotho,LSO,-,-,-,-,-,-,-,-,-
+Latvia,LVA,-,-,-,-,-,-,-,-,-
+Morocco,MAR,-,-,-,-,-,-,-,-,-
+Monaco,MCO,-,-,-,-,-,-,-,-,-
+Madagascar,MDG,-,-,-,-,-,-,-,-,-
+Maldives,MDV,-,-,-,-,-,-,-,-,-
+Marshall Islands,MHL,-,-,-,-,-,-,-,-,-
+Mali,MLI,-,-,-,-,-,-,-,-,-
+Malta,MLT,-,-,-,-,-,-,-,-,-
+Myanmar,MMR,-,-,-,-,-,-,-,-,-
+Montenegro,MNE,-,-,-,-,-,-,-,-,-
+Mongolia,MNG,-,-,-,-,-,-,-,-,-
+Mozambique,MOZ,-,-,-,-,-,-,-,-,-
+Mauritania,MRT,-,-,-,-,-,-,-,-,-
+Mauritius,MUS,-,-,-,-,-,-,-,-,-
+Malawi,MWI,-,-,-,-,-,-,-,-,-
+Malaysia,MYS,-,-,-,-,-,-,-,-,-
+Namibia,NAM,-,-,-,-,-,-,-,-,-
+Nigeria,NGA,-,-,-,-,-,-,-,-,-
+Nepal,NPL,-,-,-,-,-,-,-,-,-
+Nauru,NRU,-,-,-,-,-,-,-,-,-
+Oman,OMN,-,-,-,-,-,-,-,-,-
+Pakistan,PAK,-,-,-,-,-,-,-,-,-
+Panama,PAN,-,-,-,-,-,-,-,-,-
+Peru,PER,-,-,-,-,-,-,-,-,-
+Philippines,PHL,-,-,-,-,-,-,-,-,-
+Palau,PLW,-,-,-,-,-,-,-,-,-
+Dem. People's Rep. of Korea,PRK,-,-,-,-,-,-,-,-,-
+Qatar,QAT,-,-,-,-,-,-,-,-,-
+Russian Federation,RUS,-,-,-,-,-,-,-,-,-
+Rwanda,RWA,-,-,-,-,-,-,-,-,-
+Saudi Arabia,SAU,-,-,-,-,-,-,-,-,-
+Sudan,SDN,-,-,-,-,-,-,-,-,-
+Senegal,SEN,-,-,-,-,-,-,-,-,-
+Singapore,SGP,-,-,-,-,-,-,-,-,-
+Solomon Islands,SLB,-,-,-,-,-,-,-,-,-
+El Salvador,SLV,-,-,-,-,-,-,-,-,-
+San Marino,SMR,-,-,-,-,-,-,-,-,-
+Somalia,SOM,-,-,-,-,-,-,-,-,-
+South Sudan,SSD,-,-,-,-,-,-,-,-,-
+Sao Tome and Principe,STP,-,-,-,-,-,-,-,-,-
+Slovenia,SVN,-,-,-,-,-,-,-,-,-
+eSwatini,SWZ,-,-,-,-,-,-,-,-,-
+Seychelles,SYC,-,-,-,-,-,-,-,-,-
+Syrian Arab Republic,SYR,-,-,-,-,-,-,-,-,-
+Chad,TCD,-,-,-,-,-,-,-,-,-
+Thailand,THA,-,-,-,-,-,-,-,-,-
+Turkmenistan,TKM,-,-,-,-,-,-,-,-,-
+Timor-Leste,TLS,-,-,-,-,-,-,-,-,-
+Tonga,TON,-,-,-,-,-,-,-,-,-
+Trinidad and Tobago,TTO,-,-,-,-,-,-,-,-,-
+Tunisia,TUN,-,-,-,-,-,-,-,-,-
+Tuvalu,TUV,-,-,-,-,-,-,-,-,-
+United Rep. of Tanzania,TZA,-,-,-,-,-,-,-,-,-
+Uganda,UGA,-,-,-,-,-,-,-,-,-
+Ukraine,UKR,-,-,-,-,-,-,-,-,-
+Uruguay,URY,-,-,-,-,-,-,-,-,-
+Uzbekistan,UZB,-,-,-,-,-,-,-,-,-
+Saint Vincent and the Grenadines,VCT,-,-,-,-,-,-,-,-,-
+Viet Nam,VNM,-,-,-,-,-,-,-,-,-
+Vanuatu,VUT,-,-,-,-,-,-,-,-,-
+Samoa,WSM,-,-,-,-,-,-,-,-,-
+Yemen,YEM,-,-,-,-,-,-,-,-,-
+South Africa,ZAF,-,-,-,-,-,-,-,-,-
+Zambia,ZMB,-,-,-,-,-,-,-,-,-
+Zimbabwe,ZWE,-,-,-,-,-,-,-,-,-
