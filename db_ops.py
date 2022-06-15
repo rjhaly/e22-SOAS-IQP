@@ -50,7 +50,7 @@ def perform_db_timelapse_ops(is_import) -> pd.DataFrame:
                 new_row = new_row.append(pt_row[1])
                 # new_row = pd.concat([new_row, pt_row[1]])
                 if new_row["odat"] != "All":
-                    # tl_map_df = pd.concat([tl_map_df, new_row], ignore_index=True)
+                    #tl_map_df = pd.concat([tl_map_df, new_row], ignore_index=True)
                     tl_map_df = tl_map_df.append(new_row, ignore_index=True)
 
     tl_map_df = tl_map_df.fillna(0)
@@ -69,7 +69,7 @@ def perform_db_timelapse_ops(is_import) -> pd.DataFrame:
                     fill_row = tl_map_df.loc[(tl_map_df["sipri_name"] == key) & (tl_map_df["odat"] == y - 1)].copy()
                     fill_row["odat"] = y
                     tl_map_df = tl_map_df.append(fill_row, ignore_index=True)
-                    # tl_map_df = pd.concat([tl_map_df, fill_row], ignore_index=True)
+                    #tl_map_df = pd.concat([tl_map_df, fill_row], ignore_index=True)
 
     file = "data/tl_map_i_df.csv" if is_import else "data/tl_map_e_df.csv"
     tl_map_df_file = open(file, "w")

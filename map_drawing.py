@@ -38,9 +38,10 @@ def draw_tl_map(tl_map_df, is_import):
     plot(fig)
 
 
+
 def draw_transparency_map(transparency_df):
     """Draws the "Transparency indicator" map using Plotly.
-    :param pd.DataFrame transparency_df: Map DataFrame for drawing choropleth map.
+    :param pd.DataFrame transparency_df: Map a for drawing choropleth map.
     :return: None, but creates HTML file
     """
     fig = px.choropleth(transparency_df,
@@ -64,7 +65,7 @@ def draw_stockpiles_map(stockpiles_df):
                         locations=stockpiles_df.index,
                         hover_name="https://www.unroca.org/",
                         color="Total Recorded Munition Sum",
-                        hover_data=['Most recent year (1992-2019)', 'I. Battle tanks', 'II. Armoured combat vehicles',
+                        hover_data=['Most recent year', 'I. Battle tanks', 'II. Armoured combat vehicles',
                                     'III. Large calibre artillery systems', 'IV. Combat aircraft',
                                     'V. Attack helicopters', 'VI. Warships', 'VII. Missiles and missile launchers'],
                         title="Major Conventional Weapon Stockpiles from UNROCA",
